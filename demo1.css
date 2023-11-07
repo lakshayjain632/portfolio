@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    height: 16vh;
+}
+
+.navitems  {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 16px;
+    right: 100px;
+    margin-right: 60px;
+}
+
+a{
+    list-style: none;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.port{
+    color: greenyellow;
+    margin-right: -20px;
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+}
+
+.folio{
+    color: aliceblue;
+    margin-right: 78px;
+    font-family: 'Kalam', cursive;
+}
+
+.introduction .navbar .title span{
+    display: inline-block;
+    letter-spacing: 2px;
+
+}
+
+.title{
+    margin-top: 30px;
+    margin-left: 144px;
+    margin-right: 50px;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    transition: 0.5s;
+}
+
+.title:hover{
+    scale: 110%;
+}
+
+
+.maincontent h4{
+    color: pink;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+    letter-spacing: 2px;
+}
+
+.name .name1{
+    font-size: 80px;
+    color: antiquewhite;
+}
+
+.maincontent{
+    position: absolute ;
+    top: 40%;
+    left: 10%;
+}
+
+.navbar:hover{
+    color: blueviolet;
+}
+
+.picture img{
+    border-radius: 20px;
+    transition: 1s;
+}
+
+/* .picture img:hover{
+    scale: 110%;
+} */
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #191919 ;
+    height: 100vh;
+    position: absolute;
+    top: 739px;
+    width:100%;
+}
+.introduction header .navbar ul a:hover{
+    color: rgb(252, 227, 0);
+
+}
+
+.about1{
+    height: auto;
+    width: 600px;
+
+}
+
+
+#interest{
+    width: 100%;
+    height: 650px;
+    background-color: #101010;
+    position: absolute;
+    top: 200vh;
+}
+
+.heading{
+    font-size: 55px;
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    top: 25px;
+    left: 550px;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    min-height: 400px;
+    position:relative;
+    top: 150px;
+}
+.card{
+    height: 365px;
+    width: 200px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 40px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.35s;
+}
+
+.card:hover{
+    scale: 105%;
+}
+
+#qualifications{
+    width: 100%;
+    height: 650px;
+    background-color: #191919;
+    position: absolute;
+    top: 288vh;
+}
+
+
+.tab{
+    position: relative;;
+    top: 250px;
+    padding: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    margin: 25px 10px;
+    font-size: 1em;
+    min-width: 400px;
+    color: rgba(231, 224, 231, 0.87);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 200px;
+}
+
+#skills{
+    height: 233vh;
+    width: 100%;
+    background-color: #101010;
+    position: relative;
+    top: 355vh;
+}
+
+.skillcard{
+    height: 278px;
+    width: 80%;
+    background: #191919;
+    border-radius: 10px;
+    margin-top: 35px;
+    position: relative;
+    top: 204px;
+    left: 159px;
+    padding: 30px;
+    transition: 0.5s;
+}
+/* .skillcard:hover{
+    scale: 105%;
+} */
+
+#contact{
+        position: relative;
+        top: 355vh;
+        width: 100%;
+        height: 300px;
+        background: #141414;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+.logos{
+    padding: 20px;
+    margin: 20px;
+    width: fit-content;
+    position: relative;
+    bottom: -24px;
+}
+
+.logos img:hover{
+    scale: 120%;
+}
+
